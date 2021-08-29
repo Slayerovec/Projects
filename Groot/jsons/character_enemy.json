@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Stařenka",
+        "Type": "Boss",
+        "reward": {
+            "money": 50,
+            "exp": 30,
+            "items": {
+                "Glock": 20,
+                "Buchtičky": 100
+            }
+        },
+
+        "Attribute": {
+                "Health": 10,
+                "Level": 10,
+                "Strength": 10,
+                "Stamina": 10,
+                "Dexterity": 10,
+                "Intelligence": 10,
+                "Charisma": 10
+            },
+
+        "Items": {
+            "Head": "Oculus",
+            "Vest": "BodyArmor",
+            "Body": "Suit",
+            "Legs": "Legins",
+            "Shoes": "Wabaki",
+            "Guns": [
+                "Machette",
+                "Lucerna"
+            ],
+            "Accessories": "NWM",
+            "Ammo": "Šípy"
+        }
+    }
+]

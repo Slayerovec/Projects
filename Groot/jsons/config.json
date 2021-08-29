@@ -1,0 +1,44 @@
+{
+    "csgo": {
+        "IP": "193.165.210.235",
+        "PORT": [
+            27011,
+            27012,
+            27013,
+            27014,
+            27015,
+            27016,
+            27017,
+            27018,
+            27019
+        ],
+        "custom_thumb": "https://steamuserimages-a.akamaihd.net/ugc/933804796722831664/49574C5936D7022D597227832C87F6B0C8863AEB/",
+        "refresh_time": 600,
+        "msg_id": {
+            "828976703954878506": 848853895890862159,
+            "369929137252466688": null
+        },
+        "server_commands": {
+            ".setup": "begins the setup phase and sets the pug leader",
+            ".10man": "an alias of setup with 5v5, captains, and a mapvote",
+            ".ready": "ready",
+            ".notready": "notready",
+            ".pause": "requests a pause (which takes effect next freezetime)",
+            ".unpause": "request an unpause",
+            ".start": "starts the game if auto-live has been disabled",
+            ".capt": "gives the pug leader a menu to select captains",
+            ".rand": "selects random captains",
+            ".leader": "gives a menu to change the game leader",
+            ".endgame": "force ends the game safely (only the leader can do this, note that this resets the leader to nobody)",
+            ".forceend": "force ends the game without a confirmation menu",
+            ".stay": "chooses to stay after winning a knife round",
+            ".swap": "chooses to swap after winning a knife round",
+            ".ct": "chooses to start on ct after winning a knife round",
+            ".t": "chooses to start on t after winning a knife round"
+        }
+    },
+    "lfm": {
+        "group_size": 5,
+        "game_types": [ "lol", "valorant", "csgo"]
+    }
+}

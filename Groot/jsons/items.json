@@ -1,0 +1,25 @@
+{
+    "Weapons": [
+        {
+            "nazev_weapon": {
+                "vlastnosti_weapon": 50
+            }
+        }
+    ],
+
+    "Clothes": [
+        {
+            "nazev_itemu": {
+                "vlastnosti_itemu": 50
+            }
+        }
+    ],
+
+    "Items": [
+        {
+            "nazev_itemu": {
+                "vlastnosti_itemu": 50
+            }
+        }
+    ]
+}

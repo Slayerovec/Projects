@@ -1,0 +1,47 @@
+{
+    "Max start points": 50,
+    "Hacker": {
+        "avaiable_points": 15,
+        "Description": "Je to hacker co ma rad hack",
+        "Attribute": {
+            "Strength": 5,
+            "Stamina": 10,
+            "Dexterity": 15,
+            "Intelligence": 15,
+            "Charisma": 5
+        },
+        "Special_Atrribute": {
+
+        }
+    },
+
+    "Mercenary": {
+        "avaiable_points": 5,
+        "Description": "Je to žoldak co je žoldak",
+        "Attribute": {
+            "Strength": 15,
+            "Stamina": 10,
+            "Dexterity": 10,
+            "Intelligence": 10,
+            "Charisma": 5
+        },
+        "Special_Atrribute": {
+
+        }
+    },
+
+    "Common": {
+        "avaiable_points": 10,
+        "Description": "Je to normalní čmoud z ulice",
+        "Attribute": {
+            "Strength": 10,
+            "Stamina": 10,
+            "Dexterity": 10,
+            "Intelligence": 10,
+            "Charisma": 10
+        },
+        "Special_Atrribute": {
+
+        }
+    }
+}

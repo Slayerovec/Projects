@@ -1,0 +1,43 @@
+{
+    "news": {
+        "feeds.ign": "http://feeds.ign.com/ign/games-all/.rss",
+        "pcgamer.com": "http://pcgamer.com/rss/.rss",
+        "kotaku.com": "http://kotaku.com/rss/.rss"
+    },
+    "memes": {
+        "9gag": "https://9gagrss.com/feed/",
+        "reddit_memes": "https://www.reddit.com/r/memes/.rss",
+        "reddit_greentext": "https://www.reddit.com/r/greentext/.rss"
+    },
+    "twitter": {
+        "channels": {
+            "riotgames": 20523846
+        },
+        "settings": {
+            "time": "2021-05-03T19:40:03.000Z"
+        }
+    },
+    "twitch": {
+        "channels": {
+            "spajkk": false,
+            "batyalquawen": false,
+            "nvidiageforcecz": false
+        }
+    },
+    "youtube": {
+        "channels": {
+            "spajkk": "UCPBpfbpvbWtryAlbr3WStWA"
+        }
+    },
+    "settings": {
+        "memes": "",
+        "news": "",
+        "twitter": "2021-05-03T19:40:03.000Z",
+        "twitch": {
+            "twitchtime": "2021-04-18T23:16:42Z"
+        },
+        "youtube": {
+            "spajkk": "2021-04-28"
+        }
+    }
+}

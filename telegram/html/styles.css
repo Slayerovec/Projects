@@ -1,0 +1,274 @@
+body {
+    display: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'ChineseRocksRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../html/Font/rdr2font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Go 2 Old Western';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../html/Font/Go-2-Old-Western.woff') format('woff');
+}
+
+.telegram_container {
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 768px;
+    height: 540px;
+    top: 50%;
+
+    background-image: url("img/Menu-Empty.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.telegram_content {
+    position: absolute;
+    left:35%;
+    top:33%;
+    max-height:40%;
+    max-width:50%;
+    transform: translateY(-2%);
+    transform: translateX(-10%);
+}
+
+.textarea1 {
+    position: absolute;
+    resize:none;
+    background: inherit !important;
+    border: 2px solid transparent;
+    font-family: 'Go 2 Old Western';
+    font-size: 18px;
+    height:22px;
+}
+
+.telegram_sender {
+     position: absolute;
+     font-family: 'Castellar';
+     font-size: 18px;
+     display: inline;
+     width:20px;
+     top:-20px;
+     left:-80px;
+     white-space: nowrap;
+}
+
+
+.telegram_sender_new {
+     position: absolute;
+     font-family: 'Castellar';
+     font-size: 18px;
+     display: inline;
+     width:22px;
+     top:-45px;
+     left:-25px;
+     white-space: nowrap;
+}
+
+.telegram_message {
+     position: absolute;
+     top:25px;
+     left:-200px;
+     font-family: 'Go 2 Old Western';
+     font-size: 28px;
+     text-align: left;
+     max-width:650px;
+     word-wrap: break-word;
+}
+
+
+.telegram_buttons {
+
+
+}
+
+.telegrams_open_menu_button {
+  display: block;
+  position: absolute;
+  left:22%;
+  top:23%;
+  max-height:40%;
+  max-width:50%;
+}
+
+.telegrams_menu_button {
+    display: inline;
+    position: absolute;
+    top: 77%;
+    left: 15%;
+    max-height:40%;
+    max-width:50%;
+}
+
+
+span {
+    font-family: 'ChineseRocksRg-Regular';
+    font-size: 18px;
+}
+
+p {
+    font-family: 'ChineseRocksRg-Regular';
+    font-size: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    margin-top:-18px;
+}
+
+p a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.open_telegram {
+
+
+}
+
+ul {
+   list-style-type: none;
+    text-align:center;
+}
+
+.inline {
+    display: inline;
+    padding-right:25%;
+}
+
+li {
+  margin-top:3%;
+}
+
+li a {
+  font-family: 'ChineseRocksRg-Regular';
+  font-size: 46px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 250px;
+  left: 0;
+  top: 0;
+  width: 768px;
+  height: 290px;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  font-family: 'ChineseRocksRg-Regular';
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 350px;
+  background-color: rgba(255,229,204,0.4);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+  max-width: 345px;
+  text-align: center;
+}
+
+.modal-body {
+    position: relative;
+    left:40px;
+    padding: 2px 16px;
+    max-width: 350px;
+}
+
+.button {
+  background-color: #3C3030;
+  border: none;
+  color: white;
+  font-family: 'ChineseRocksRg-Regular';
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #3C3030;
+  border: none;
+  color: white;
+  font-family: 'ChineseRocksRg-Regular';
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.button2:hover {
+  background-color: #000000;
+}

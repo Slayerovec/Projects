@@ -1,0 +1,9 @@
+{
+    "nazev_akce": {
+        "place": 1,
+        "atributy": 10,
+        "potřebné věci": {
+            "amyšak": -1
+        }
+    }
+}
